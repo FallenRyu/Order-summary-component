@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin-top: 2em;
   padding: 0;
   font-family: "Roboto", sans-serif;
 
@@ -44,4 +44,6 @@ li {
 /*---------------------------------------------------------------------------------------------------RESET CSS---------------------------------------------------------------------------- */
 
 .Container {
+  background-color: white;
+  width: 450px;
 }
