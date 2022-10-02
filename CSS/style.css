@@ -96,13 +96,34 @@ p {
   flex-grow: 0.2;
 }
 
+span {
+  font-weight: 700;
+}
 .Container__Para {
   margin: auto;
   width: 90%;
 }
 
-.AnnualPlanBtn__Change {
+.AnnualPlanbtn__Proceed a,
+.AnnualPlanbtn__Canncel a {
+  text-decoration: none;
 }
+
+.AnnualPlanbtn__Proceed {
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 1em;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 0.6rem;
+  color: white;
+}
+
+.AnnualPlanbtn__Proceed a {
+  color: white;
+}
+
 .attribution {
   display: block;
 }
