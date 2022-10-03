@@ -119,6 +119,7 @@ span {
   margin-top: 1rem;
   padding: 0.8rem;
   color: white;
+  box-shadow: 1px 10px 7px hsl(225, 100%, 94%);
 }
 
 .AnnualPlanbtn__Proceed a {
